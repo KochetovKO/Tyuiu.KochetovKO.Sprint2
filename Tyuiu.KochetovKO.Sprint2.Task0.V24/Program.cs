@@ -41,7 +41,7 @@ namespace Tyuiu.KochetovKO.Sprint2.Task0.V24
             Console.WriteLine("РЕЗУЛЬАТ                                                                        ");
             Console.WriteLine("********************************************************************************");
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 6; i++) 
             {
                 Console.WriteLine(res[i]);
             }
