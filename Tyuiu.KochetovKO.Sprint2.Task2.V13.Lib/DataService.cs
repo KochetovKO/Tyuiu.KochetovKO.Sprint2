@@ -27,7 +27,7 @@ namespace Tyuiu.KochetovKO.Sprint2.Task2.V13.Lib
             {
                 res = true;
             }
-            else if (x == 13 && y >= 6 && y <= 8)
+            else if (x == 13 && y >= 6 && y <= 8) 
             {
                 res = true;
             }
