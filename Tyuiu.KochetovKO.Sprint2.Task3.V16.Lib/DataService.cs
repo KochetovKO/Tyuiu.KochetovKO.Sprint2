@@ -8,7 +8,7 @@ namespace Tyuiu.KochetovKO.Sprint2.Task3.V16.Lib
             double y = 0;
 
             if (x > 1)
-            {
+            { 
                 y = x + Math.Pow((x + 1 / x - 1), 3);
             }
             else
