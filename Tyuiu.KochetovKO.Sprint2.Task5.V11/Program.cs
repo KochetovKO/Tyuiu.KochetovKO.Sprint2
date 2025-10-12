@@ -29,7 +29,7 @@ namespace Tyuiu.KochetovKO.Sprint2.Task5.V11
 
             string res = ds.FindDateOfNextDay(year, month, date); date.ToString("dd.MM.yyyy");
 
-            DateTime res1 = DateTime.Parse(res);
+            DateTime res1 = DateTime.Parse(res); 
             string fd = res1.ToString("dd.MM.yyyy");
 
 
