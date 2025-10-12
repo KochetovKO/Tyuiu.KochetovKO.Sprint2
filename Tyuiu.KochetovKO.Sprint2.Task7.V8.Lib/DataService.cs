@@ -6,10 +6,10 @@ namespace Tyuiu.KochetovKO.Sprint2.Task7.V8.Lib
         public bool CheckDotInShadedArea(double x, double y)
         {
             bool res;
-            bool isInCircle = x * x + y * y <= 4.0;
-            bool isAboveLine = y >= x;
+            bool xRange = (x > 0);
+            bool yRange = (y > 0) && (y <= 4);
 
-            if (isInCircle && isAboveLine)
+            if (xRange && yRange)
             {
                 res = true;
             }
