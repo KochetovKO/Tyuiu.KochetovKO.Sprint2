@@ -70,8 +70,9 @@ namespace Tyuiu.KochetovKO.Sprint2.Task5.V11.Lib
                 default: monthName = "Неизвестно"; break;
             }
 
-            return $"{nd}.{nm}.{ny}";
-            return $"{nd:D2}.{nm:D2}.{ny}";
+            string nd1 = nd < 10 ? "0" + nd : nd.ToString();
+            string nm1 = nm < 10 ? "0" + nm : nm.ToString();
+            return $"{nd1}.{nm1}.{ny}";
         }
     }
 }

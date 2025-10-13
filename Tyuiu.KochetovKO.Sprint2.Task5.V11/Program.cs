@@ -12,7 +12,18 @@ namespace Tyuiu.KochetovKO.Sprint2.Task5.V11
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
+            Console.Title = "Спринт 2 | выполнил: Кочетов К.О. | ИСПБ-25-1";
+            Console.WriteLine("********************************************************************************");
+            Console.WriteLine("Спринт №2                                                                       ");
+            Console.WriteLine("Тема: Оператор switch                                                           ");
+            Console.WriteLine("**********************************************                                  ");
+            Console.WriteLine("Задание №5                                                                      ");
+            Console.WriteLine("Вариант №11                                                                     ");
+            Console.WriteLine("Выполнил: Кочетов Кирилл Олегович | ИСПБ-25-1                                   ");
+            Console.WriteLine("********************************************************************************");
+            Console.WriteLine("УСЛОВИЕ:                                                                        ");
+            Console.WriteLine("Написать программу, которая использует оператор switch                          ");
+            Console.WriteLine("вычисляет требуемое значение и возвращает результат.                            ");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("ИСХОДНЫЕ ДАННЫЕ :                                                               ");
             Console.WriteLine("********************************************************************************");
@@ -29,15 +40,14 @@ namespace Tyuiu.KochetovKO.Sprint2.Task5.V11
 
             string res = ds.FindDateOfNextDay(year, month, date);  
 
-            DateTime res1 = DateTime.Parse(res); 
-            string fd = res1.ToString("dd.MM.yyyy");
+            
 
 
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("РЕЗУЛЬТАТ :                                                                     ");
             Console.WriteLine("********************************************************************************");
 
-            Console.WriteLine("Следующий день: " + fd);
+            Console.WriteLine("Следующий день: " + res);
             Console.ReadKey();
 
 

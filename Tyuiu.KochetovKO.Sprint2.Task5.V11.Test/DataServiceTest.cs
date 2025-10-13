@@ -1,11 +1,11 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
-namespace Tyuiu.SlokvaGA.Sprint2.Task5.V13.Lib
+﻿namespace Tyuiu.SlokvaGA.Sprint2.Task5.V13.Lib
 {
-    public class DataService : ISprint2Task5V11
+    public class DataServiceTest
     {
-        public string FindDateOfNextDay(int g, int m, int n)
+        [TestMethod]
+        public void TestMethod1()
         {
-            
+
         }
     }
 }
