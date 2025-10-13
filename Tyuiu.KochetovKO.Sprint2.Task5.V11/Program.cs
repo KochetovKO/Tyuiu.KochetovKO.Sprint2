@@ -38,7 +38,7 @@ namespace Tyuiu.KochetovKO.Sprint2.Task5.V11
             int date = Convert.ToInt32(Console.ReadLine());
 
 
-            string res = ds.FindDateOfNextDay(year, month, date);  
+            string res = ds.FindDateOfNextDay(year, month, date);   
 
             
 
